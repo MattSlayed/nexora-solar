@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" font-family="'IBM Plex Sans',system-ui,sans-serif">
+  <rect width="900" height="360" fill="#FFFEF9"/>
+  <!-- Vertical gold bar - structural anchor -->
+  <rect x="80" y="80" width="4" height="200" fill="#C9A227"/>
+  <!-- Geometric mark: hexagonal/diamond sun with horizontal cleaning sweep -->
+  <g transform="translate(170,180)">
+    <!-- diamond/sun -->
+    <polygon points="0,-44 38,0 0,44 -38,0" fill="#1B2A4E"/>
+    <polygon points="0,-26 22,0 0,26 -22,0" fill="#C9A227"/>
+    <!-- horizontal sweep line through it -->
+    <line x1="-72" y1="0" x2="72" y2="0" stroke="#1B2A4E" stroke-width="4" stroke-linecap="square"/>
+  </g>
+  <!-- Wordmark - tight letter-spacing, all caps, geometric -->
+  <text x="280" y="170" font-size="98" font-weight="700" fill="#1B2A4E" letter-spacing="6">NEXORA</text>
+  <!-- two-line lockup -->
+  <text x="280" y="220" font-size="14" font-weight="500" fill="#1B2A4E" letter-spacing="5">SOLAR CLEANING SYSTEMS</text>
+  <text x="280" y="244" font-size="11" font-weight="400" fill="#94A3B8" letter-spacing="3">EST. 2026 · JOHANNESBURG &amp; CAPE TOWN</text>
+</svg>

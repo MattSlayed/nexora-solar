@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" font-family="'Spectral','Newsreader','Cambria',Georgia,serif">
+  <rect width="900" height="360" fill="#FFFEF9"/>
+  <!-- thin gold rule top -->
+  <line x1="80" y1="76" x2="820" y2="76" stroke="#C9A227" stroke-width="1.4"/>
+  <!-- Mark: NEXORA monogram - serif "N" with sun replacing crossbar -->
+  <g transform="translate(140,180)">
+    <!-- left stroke of N -->
+    <rect x="-58" y="-58" width="14" height="116" fill="#1B2A4E"/>
+    <!-- right stroke of N -->
+    <rect x="44" y="-58" width="14" height="116" fill="#1B2A4E"/>
+    <!-- diagonal stroke -->
+    <polygon points="-44,-58 -30,-58 58,58 44,58" fill="#1B2A4E"/>
+    <!-- gold sun bisecting the diagonal at midpoint -->
+    <circle cx="7" cy="0" r="22" fill="#C9A227"/>
+    <circle cx="7" cy="0" r="13" fill="#FFFEF9"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="270" y="200" font-size="92" font-weight="500" fill="#1B2A4E" letter-spacing="8" font-style="italic">NEXORA</text>
+  <!-- subtitle -->
+  <text x="270" y="238" font-size="16" font-weight="400" fill="#475569" letter-spacing="6" font-family="'IBM Plex Sans',system-ui,sans-serif">ROBOTIC SOLAR · MAINTENANCE STANDARD</text>
+  <!-- thin gold rule bottom -->
+  <line x1="80" y1="284" x2="820" y2="284" stroke="#C9A227" stroke-width="1.4"/>
+</svg>
