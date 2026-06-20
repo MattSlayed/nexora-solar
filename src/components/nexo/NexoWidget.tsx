@@ -100,7 +100,7 @@ export function NexoWidget() {
   }, [messages]);
 
   return (
-    <div className="fixed bottom-4 left-4 z-[60] flex flex-col items-start gap-3 print:hidden">
+    <div className="fixed bottom-4 right-4 z-[60] flex flex-col items-end gap-3 print:hidden">
       <AnimatePresence>
         {open && (
           <motion.section
