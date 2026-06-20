@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
+import { NexoWidget } from "@/components/nexo/NexoWidget";
 
 export function Navbar() {
   const [location] = useLocation();
@@ -84,11 +85,17 @@ export function Footer() {
 }
 
 export function Layout({ children }: { children: React.ReactNode }) {
+  const [location] = useLocation();
+  // The /app-preview and /website pages embed the diagnostics app, which carries
+  // its own NEXO — suppress the website's launcher there to avoid two at once.
+  const hideNexo = location === "/app-preview" || location === "/website";
+
   return (
     <div className="min-h-screen flex flex-col font-sans">
       <Navbar />
       <main className="flex-1">{children}</main>
       <Footer />
+      {!hideNexo && <NexoWidget />}
     </div>
   );
 }
